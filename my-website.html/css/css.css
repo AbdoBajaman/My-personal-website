@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+
+body {
+    font-family: 'El Messiri', 'sans-serif';
+    padding: 0px;
+    margin: 0px;
+
+    background-color: #f4f4f4;
+
+
+    direction: rtl;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main>section {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+#Header {
+    background: #353637;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-bottom: 3px solid #32a0c2;
+    padding: 0px 120px;
+}
+
+#brancing h1 {
+    font-size: 28px;
+}
+
+nav>ul {
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+#Header a {
+    text-decoration: none;
+
+    color: #ffffff;
+}
+
+nav>ul>li {
+    float: right;
+    margin-left: 15px;
+}
+
+
+li a {
+    text-decoration: none;
+
+    color: white;
+}
+
+#Header .highlight,
+#Header .current a {
+    color: #32a0c2;
+}
+
+
+#showcase {
+
+    min-width: 400px;
+
+    background: url(../img/pexels-pixabay-356056.jpg) no-repeat 0px    center ;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+
+#showcase h1 {
+
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#newletter {
+    padding: 15px 120px;
+
+
+
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    color: #ffff;
+    background-color: #353637;
+
+}
+
+#newletter h1 {
+    float: right;
+}
+
+#newletter form {
+    float: left;
+    margin-top: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#newletter input[type='text'] {
+    padding: 4px;
+    width: 250px;
+    height: 25px;
+}
+
+.btn {
+    height: 38px;
+    background-color: #cccccc;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #353637;
+}
+
+#boxes {
+
+
+    margin-top: 20px;
+    padding: 60px 120px;
+
+    display: flex;
+
+
+    flex-flow: row wrap;
+
+    
+    justify-content: center;
+    align-content: center;
+
+    align-items: center;
+}
+
+#boxes .box {
+    text-align: center;
+    margin-left: 10px;
+}
+
+@media (max-width:200px) {
+    #boxes {
+        flex-direction: column;
+    }}
+
+#footer {
+    padding: 20px;
+    margin: 20px;
+    color: #ffffff;
+    background-color: #32a0c2;
+    text-align: center;
+}

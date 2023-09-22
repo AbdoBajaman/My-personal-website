@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdo Website</title>
+
+    <meta name="description" content="موقعي الشخصي">
+
+    <meta name="author" content="ENG:Abdulrahman Abdullah Bajaman">
+
+
+
+
+    <link rel="stylesheet" href="../my-website.html/css/css.css">
+    <link rel="stylesheet" href="../my-website.html/fontawesome-v6.4.2/css/all.min.css">
+
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    
+</head>
+
+<body>
+
+    <main>
+        <section id="Header">
+
+            <div id="brancing" style="flex-grow: 8;">
+
+
+                <h1>
+
+                    <a href="Home.html"> <i class="fa fa-user-circle"></i> صفحه <span class="highlight">عبدالرحمن
+                            باجعمان</span>
+
+
+                    </a>
+                </h1>
+            </div>
+
+
+            <nav>
+
+                <ul>
+                    <li class="current">
+
+                        <a href="Home.html">الرئيسيه</a>
+
+                    </li>
+
+                    <li class="Gallery">
+
+                        <a href="Gallery.html">
+                            معرض الاعمال
+                        </a>
+
+                    </li>
+                </ul>
+
+
+            </nav>
+        </section>
+        <section id="showcase">
+
+
+
+            <h1>عبدالرحمن عبدالله باجعمان <br> مطور صفحات ويب</h1>
+
+            <p>صفحه تعريفيه بالمهندس ومطور برمجيات عبدالرحمن عبدالله باجعمان</p>
+        </section>
+
+        <section id="newletter">
+            <h1 style="flex-grow: 8;">اشترك معنا</h1>
+
+            <form action="">
+                البريد الالكتروني: <input type="text" id="email" style="flex-grow: 5;" placeholder="بريد الالكتروني">
+                <input type="submit" class="btn" style="flex-grow: 5;" name="" id="" value="اشتراك">
+
+            </form>
+        </section>
+        <section id="boxes">
+
+
+            <div class="box" style="flex: 30%;">
+
+                <i class="fa fa-laptop fa-5x"></i>
+                <h3>أحد الاساليب والتقنيات المستخدمه</h3>
+                <p>زورونا تجدوا مايسعدكم</p>
+            </div>
+            <div class="box" style="flex: 30%;">
+                <i class="fa fa-signal fa-5x"></i>
+                <h3>تصاميم احترافيه</h3>
+                <p>زورونا تجدوا تصاميم تسعدكم</p>
+            </div>
+            <div class="box" style="flex: 30%;">
+                <i class="fa fa-cube fa-5x"></i>
+                <h3>تسليم في الوقت المطلوب باسرع وقت</h3>
+                <p>خدماتنا سريعه </p>
+            </div>
+        </section>
+        <section id="footer">
+            <p>الصفحه الشخصيه للمهندس عبدالرحمن عبدالله باجعمان &copy;
+
+                <span id="currentyear"></span>
+            </p>
+
+        </section>
+    </main>
+
+
+    <!-- <script>
+
+        jQuery(function()
+        {
+            var currentdate=new Date();
+            $('#currentyear').text(currentdate.getFullYear());
+        })
+    </script> -->
+    <script>
+        jQuery('.btn').click(function()
+        {
+
+            var x=$('#email').val();
+            if(x!="")
+            {
+
+                alert(' تم اشتراكك بنجاح شكراً لثقتك بنا')
+            }
+            else
+            {
+                alert(' ادخل حسابك ليتم اشتراكك لعرض كل ماهو جديد ومتوفر')
+            }
+        })
+    </script>
+
+    <script src="../my-website.html/js/script.js"></script>
+</body>
+
+</html>
